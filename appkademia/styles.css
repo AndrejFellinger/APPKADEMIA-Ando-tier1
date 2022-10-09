@@ -51,9 +51,14 @@ table {
     text-align: center;
     height: 50px;
     width: auto;
+    max-width: 1100px;
     margin: 0 115px;
     padding: 0 12px;
     border-bottom: 1px solid #d7eaff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #header-container1-txt{
@@ -97,6 +102,11 @@ table {
     display: flex;
     vertical-align: middle;
     align-items: center;
+    max-width: 1296px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #header-containter-img1{
@@ -782,4 +792,209 @@ b{
     text-decoration: none;
     color: rgb(53, 151, 255);
     font-size: 16px;
+}
+
+#who-stands-behind-openlab{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#who-stands-behind-openlab h2{
+    color: rgb(33, 37, 41);
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 48px;
+    margin-right: 85px;
+}
+
+#companies-behind-openlab-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#companies-behind-openlab-box img{
+    margin: 15px;
+}
+
+#main-container-modern-school{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#modern-school-box h2{
+    font-size: 40px;
+    color: rgb(33, 37, 41);
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#modern-school-box p{
+    color: rgb(86, 107, 141);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 451px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+#modern-school-box li{
+    display: inline-flex;
+    margin: 5px;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+#modern-school-box button{
+    padding: 22px 56px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(53, 151, 255);
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+}
+
+#modern-school-img{
+    width: 546px;
+    height: 307px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#main-container-thanks-for-support-2021{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#main-container-thanks-for-support-2021 img{
+    margin: 16px;
+    margin-left: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#thx-for-support-2021{
+    font-size: 40px;
+    color: rgb(33, 37, 41);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 160px;
+}
+
+#main-container-email-newsletter{
+    background: rgb(215, 234, 255);
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    width: 1100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+#main-container-email-newsletter h2{
+    width: 502px;
+    color: rgb(33, 37, 41);
+    font-size: 19px;
+    font-weight: 300;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#newsletter-input-box{
+    width: 502px;
+    /* padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 60px; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    height: 28px;
+    padding: 6px 4px;
+    border-radius: 6px;
+}
+
+#newsletter-input-box input{
+    width: 502px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 28px;
+    color: rgb(86, 107, 141);
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#footer-box1{
+    margin-right: 50px;
+}
+
+#footer-box1 img{
+    width: 112px;
+    height: 27px;
+    margin-bottom: 8px;
+}
+
+#footer-box2{
+    margin-right: 50px;
+    margin-top: 16px;
+}
+
+#footer-box3{
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+footer h3{
+    color: rgb(86, 107, 141);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 19.5px
+}
+
+footer a{
+    color: rgb(86, 107, 141);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+footer ul{
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 26px;
+    margin-left: 200px;
+}
+
+footer li{
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
 }
