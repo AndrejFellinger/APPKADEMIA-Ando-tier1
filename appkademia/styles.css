@@ -153,6 +153,11 @@ table {
     letter-spacing: 1px;
 }
 
+#nav-button a{
+    text-decoration: none;
+    color: white !important;
+}
+
 #main-first-container{
     background-color: #3597ff !important;
     width: 100%;
@@ -997,4 +1002,61 @@ footer li{
     margin: 0 10px;
     width: 20px;
     height: 20px;
+}
+
+.input-text-form{
+    text-align: left;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    color: rgba(49, 49, 49, 0.651);
+    width: 700px;
+}
+
+.form-input{
+    align-items: center;
+    margin-left: auto;
+    vertical-align: middle;
+    padding: 10px 15px;
+    width: auto;
+    min-width: 500px;
+    border-radius: 5px;
+    border: 1px solid rgba(49, 49, 49, 0.2);
+    font-size: 16px;
+    outline: none;
+    color: #2c2c2c;
+}
+
+#form-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 80px 30px;
+    width: 1000px;border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#form-box h1{
+    color: black;
+    margin-bottom: 50px;
+    font-size: 68px;
+}
+
+#back-to-home-form{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #3597ff;
 }
